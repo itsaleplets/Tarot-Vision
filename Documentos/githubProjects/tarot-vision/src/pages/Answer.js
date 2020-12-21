@@ -27,7 +27,7 @@ function Answer() {
           </Link>
         </button>
       </div>
-      <div className="div-footer">
+      <div className="div-footer-answer">
         <Footer />
       </div>
     </div>

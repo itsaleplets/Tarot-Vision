@@ -3,39 +3,18 @@
 .bodyMain {
   background-image: url(../images/purpleuniverse.jpg);
   background-repeat: no-repeat;
-  /* background-size: 200%;
-  position: fixed; */
-  /* top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; */
-  /* background-size: cover; */
   height: 100vh;
+  background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.text-answer {
-  color: white;
-  font-family: 'Della Respira', serif;
-  font-size: 2em;
-  line-height: 150%;
-}
-
-.div-image {
-  margin-top: 5%;
-}
-
-.h2answer {
-  text-shadow: 0px 0px 25px white;
 }
 
 .question {
   margin-top: 25%;
   text-align: center;
   color: white;
-  font-size: 4.5em;
+  font-size: 3em;
   font-family: 'Dancing Script', cursive;
   text-shadow: 0px 0px 25px white;
 }
@@ -51,8 +30,9 @@
   margin-top: 10%;
   margin-bottom: 15%;
   width: 45%;
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: 100;
+  line-height: 40px;
   letter-spacing: 2px;
   border-radius: 5px;
   background-color: #281646;
@@ -65,4 +45,22 @@
   text-align: center;
   color: #faeff1;
   font-family: 'Roboto', 'sans-serif';
+  bottom: 0;
+  position: absolute;
+}
+
+@media screen and (min-width: 812px) {
+  .question {
+    font-size: 4.5em;
+  }
+
+  .button {
+    font-size: 2em;
+    line-height: 50px;
+    width: 25%;
+  }
+
+  .div-footer {
+    font-size: 1em;
+  }
 }

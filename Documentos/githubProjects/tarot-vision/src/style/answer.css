@@ -16,8 +16,8 @@
 .text-answer {
   color: white;
   font-family: 'Della Respira', serif;
-  font-size: 2em;
-  line-height: 150%;
+  font-size: 1.4em;
+  line-height: 37px;
 }
 
 .div-image {
@@ -37,8 +37,9 @@
 
 .play-again {
   margin-top: 5%;
+  margin-bottom: 5%;
   width: 45%;
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: 100;
   letter-spacing: 2px;
   border-radius: 5px;
@@ -48,9 +49,32 @@
   font-family: 'Sniglet', cursive;
 }
 
-.div-footer {
-  margin-top: 5%;
+.div-footer-answer  {
   text-align: center;
   color: #faeff1;
   font-family: 'Roboto', 'sans-serif';
+  bottom: 0;
+  font-size: 0.6em;
+}
+
+@media screen and (min-width: 812px) {
+  .text-answer {
+    font-size: 1.7em;
+    line-height: 40px;
+  }
+
+  .play-again {
+    margin-top: 5%;
+    margin-bottom: 0;
+    width: 25%;
+    font-size: 2em;
+  }
+
+  .div-footer-answer  {
+    font-size: 1em;
+  }
+
+  .h2answer {
+    font-size: 3em;
+  }
 }
