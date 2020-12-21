@@ -9,7 +9,7 @@ function App() {
     <TarotProvider>
       <Switch>
         <Route exact path="/" component={ Login } />
-        <Route exact path="/main-page" component={ MainPage } />
+        <Route path="/main-page" component={ MainPage } />
       </Switch>
     </TarotProvider>
   );
