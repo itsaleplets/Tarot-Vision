@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import tarotContext from './tarotContext';
 import fetchTarot from '../services/GetAPI';
+import { Redirect } from 'react-router-dom';
 
 function TarotProvider({ children }) {
   const [nameUser, setNameUser] = useState('');
@@ -13,12 +14,12 @@ function TarotProvider({ children }) {
   };
 
   function loadImage(name) {
-    console.log('chamou a função');
     import(`../images/${name}.png`)
       .then(image => {
         console.log(image.default); // This will show an object with a `default` property as the image you imported
         setSrc(image.default);
       })
+      .catch((error) => <Redirect to="/" />);
   }
 
   const valueProvider = {
