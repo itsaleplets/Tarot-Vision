@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import '../style/mainPage.css';
 
 function MainPage() {
-  const { dataAPI, getDataFromAPI, nameUser } = useContext(tarotContext);
+  const { dataAPI, getDataFromAPI, nameUser, loadImage } = useContext(tarotContext);
   const [showCard, setShowCard] = useState(false);
 
   useEffect(() => {
@@ -14,6 +14,7 @@ function MainPage() {
 
   function handleClick() {
     setShowCard(true);
+    loadImage(dataAPI.name_short)
   }
   if(dataAPI.length === 0) {
     <h1>Loading...</h1>
