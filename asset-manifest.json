@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tarot-vision/static/css/main.8cc158f9.chunk.css",
-    "main.js": "/tarot-vision/static/js/main.f089a71b.chunk.js",
-    "main.js.map": "/tarot-vision/static/js/main.f089a71b.chunk.js.map",
+    "main.css": "/tarot-vision/static/css/main.c7166d73.chunk.css",
+    "main.js": "/tarot-vision/static/js/main.189ec908.chunk.js",
+    "main.js.map": "/tarot-vision/static/js/main.189ec908.chunk.js.map",
     "runtime-main.js": "/tarot-vision/static/js/runtime-main.697fc6ec.js",
     "runtime-main.js.map": "/tarot-vision/static/js/runtime-main.697fc6ec.js.map",
     "static/js/2.ae3ac4e2.chunk.js": "/tarot-vision/static/js/2.ae3ac4e2.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a9601e72.chunk.js": "/tarot-vision/static/js/3.a9601e72.chunk.js",
     "static/js/3.a9601e72.chunk.js.map": "/tarot-vision/static/js/3.a9601e72.chunk.js.map",
     "index.html": "/tarot-vision/index.html",
-    "static/css/main.8cc158f9.chunk.css.map": "/tarot-vision/static/css/main.8cc158f9.chunk.css.map",
+    "static/css/main.c7166d73.chunk.css.map": "/tarot-vision/static/css/main.c7166d73.chunk.css.map",
     "static/js/2.ae3ac4e2.chunk.js.LICENSE.txt": "/tarot-vision/static/js/2.ae3ac4e2.chunk.js.LICENSE.txt",
     "static/media/login.css": "/tarot-vision/static/media/login.453aae10.png",
     "static/media/logo2.82df64ff.png": "/tarot-vision/static/media/logo2.82df64ff.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.697fc6ec.js",
     "static/js/2.ae3ac4e2.chunk.js",
-    "static/css/main.8cc158f9.chunk.css",
-    "static/js/main.f089a71b.chunk.js"
+    "static/css/main.c7166d73.chunk.css",
+    "static/js/main.189ec908.chunk.js"
   ]
 }
