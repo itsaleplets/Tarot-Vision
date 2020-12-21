@@ -1,0 +1,2 @@
+(this["webpackJsonptarot-vision"]=this["webpackJsonptarot-vision"]||[]).push([[52],{86:function(t,i,s){"use strict";s.r(i),i.default=s.p+"static/media/peki.ef33101b.png"}}]);
+//# sourceMappingURL=52.09e07e49.chunk.js.map

@@ -1,2 +1,0 @@
-(this["webpackJsonptarot-vision"]=this["webpackJsonptarot-vision"]||[]).push([[80],{113:function(t,i,s){"use strict";s.r(i),i.default=s.p+"static/media/waki.25f0a284.png"}}]);
-//# sourceMappingURL=80.1796c78a.chunk.js.map

@@ -1,0 +1,2 @@
+(this["webpackJsonptarot-vision"]=this["webpackJsonptarot-vision"]||[]).push([[41],{75:function(t,a,s){"use strict";s.r(a),a.default=s.p+"static/media/moldura-de-espelho-quadrado-115630195860kuf5av4uw.f273b541.png"}}]);
+//# sourceMappingURL=41.f2c0f6b2.chunk.js.map

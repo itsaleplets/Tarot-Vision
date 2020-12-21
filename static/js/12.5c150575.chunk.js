@@ -1,2 +1,0 @@
-(this["webpackJsonptarot-vision"]=this["webpackJsonptarot-vision"]||[]).push([[12],{45:function(t,i,s){"use strict";s.r(i),i.default=s.p+"static/media/ar08.833d6088.png"}}]);
-//# sourceMappingURL=12.5c150575.chunk.js.map

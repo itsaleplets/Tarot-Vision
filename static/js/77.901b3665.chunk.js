@@ -1,0 +1,2 @@
+(this["webpackJsonptarot-vision"]=this["webpackJsonptarot-vision"]||[]).push([[77],{111:function(t,i,s){"use strict";s.r(i),i.default=s.p+"static/media/wa09.10b4fd14.png"}}]);
+//# sourceMappingURL=77.901b3665.chunk.js.map
